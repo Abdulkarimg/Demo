@@ -1,0 +1,28 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="tw.com.akgassignment01.controller.View1" displayBlock="true">
+
+
+    <Page id="p1" title="{i18n>title}">
+   <headerContent>
+   <Select id="_IDGenSelect1" selectedItem="true" change="onSelect">
+   <core:ListItem id="_IDGenListItem1" key="en" text="{i18n>text.Eng}" />
+   <core:ListItem id="_IDGenListItem2" key="ur" text="{i18n>text.Ur}" />
+   <core:ListItem id="_IDGenListItem3" key="mr" text="{i18n>text.Mar}" />
+   
+   
+   </Select>
+  
+   </headerContent>
+    <content>
+        
+    <Label text="{i18n>text.Hello}" width="100%" id="label0"/>
+        
+    <Label text="{i18n>text.name}" width="50%" id="label0_1"/>
+        
+    <Label width="70%" id="label2" text=" {i18n>text.address}"/>
+        
+    <Label text="{i18n>text.work}" width="60%" id="label3"/>
+        
+    </content>
+    </Page>
+    
+</mvc:View>
